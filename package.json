@@ -1,0 +1,25 @@
+{
+  "type": "module",
+  "name": "express-route",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start-dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "body-parser": "^1.19.1",
+    "cheerio": "*",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "joi": "^17.6.0",
+    "multer": "^1.4.4",
+    "puppeteer": "^13.1.3"
+  }
+}
